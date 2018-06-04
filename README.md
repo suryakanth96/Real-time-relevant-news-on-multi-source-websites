@@ -29,7 +29,9 @@ spark-submit streaming.py | cat > {filename}
 
 Note: cat > {filename} is used to store the results in a file.
 
-eg: python news.py kerala | nc -lk 9999 in one terminal
+eg: 
+
+    python news.py kerala | nc -lk 9999 in one terminal
 
     spark-submit streaming.py | cat > file.txt in another terminal
     
