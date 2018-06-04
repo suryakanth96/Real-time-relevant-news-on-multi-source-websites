@@ -24,11 +24,13 @@ To run
 1.Run news.py in a terminal using
 python news.py {topic} | nc -lk 9999
 
-2.Run streaming.py in another terminal using spark-submit
-spark-submit streaming.py | cat > {filename} 
+2.Run streaming.py in another terminal using 
+spark-submit streaming.py | cat > {filename}
+
 Note: cat > {filename} is used to store the results in a file.
 
 eg: python news.py kerala | nc -lk 9999 in one terminal
+
     spark-submit streaming.py | cat > file.txt in another terminal
     
 The filtering keywords can be changed in streaming.py
