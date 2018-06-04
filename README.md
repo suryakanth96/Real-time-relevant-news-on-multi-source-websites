@@ -2,7 +2,9 @@
 A big data project to obtain real time relevant news from multiple websites.
 
 Computing Framework- Apache Spark
+
 Language- Python
+
 API- PySpark
 
 The project involves the following steps:-
